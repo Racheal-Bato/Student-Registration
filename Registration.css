@@ -19,6 +19,7 @@ h1 {
 }
 
 form {
+    /* flex-box*/
     display: flex;
     flex-direction: column;
 }

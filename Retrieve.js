@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    //when the page is fully loaded
     const studentTableBody = document.getElementById('studentTableBody');
     let students = JSON.parse(localStorage.getItem('students')) || [];
 
